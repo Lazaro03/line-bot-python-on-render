@@ -41,7 +41,7 @@ services:
  - type: web
    name: line-bot-python-simple-server
    env: python
-   repo: https://github.com/line/line-bot-sdk-python.git
+   repo: https://github.com/Lazaro03/uplmr.git
    buildCommand: cd examples/simple-server-echo;pip install -r requirements.txt
    startCommand: cd examples/simple-server-echo;python app.py
    plan: free
